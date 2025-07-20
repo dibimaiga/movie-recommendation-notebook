@@ -6,13 +6,6 @@ Le notebook explore plusieurs approches (popularité, filtrage collaboratif
 basé sur la mémoire et factorisation matricielle) et compare leurs
 performances.
 
-## Contenu
-
-| Fichier / dossier | Rôle |
-|-------------------|------|
-| Movie__recommendation.ipynb | Notebook principal : préparation des données, entraînement des modèles, évaluation et visualisations |
-| data/ | (créé au 1ᵉʳ lancement) Contient le jeu de données MovieLens téléchargé automatiquement |
-| models/ | (optionnel) Poids enregistrés pour rejouer la démo sans ré-entraîner |
 
 ## Pré-requis
 
