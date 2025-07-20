@@ -1,1 +1,37 @@
-# movie-recommendation-notebook
+# Movie Recommendation – Notebook
+
+Ce projet illustre la mise en place pas-à-pas d’un moteur de recommandation
+de films à partir des données MovieLens 100 k️¹.
+Le notebook explore plusieurs approches (popularité, filtrage collaboratif
+basé sur la mémoire et factorisation matricielle) et compare leurs
+performances.
+
+## Contenu
+
+| Fichier / dossier | Rôle |
+|-------------------|------|
+| Movie__recommendation.ipynb | Notebook principal : préparation des données, entraînement des modèles, évaluation et visualisations |
+| data/ | (créé au 1ᵉʳ lancement) Contient le jeu de données MovieLens téléchargé automatiquement |
+| models/ | (optionnel) Poids enregistrés pour rejouer la démo sans ré-entraîner |
+
+## Pré-requis
+
+- Python ≥ 3.9  
+- pip ≥ 23  
+- Environnement virtuel recommandé (venv ou conda)
+
+### Bibliothèques principales
+
+| Librairie | Version testée |
+|-----------|----------------|
+| pandas  | ≥ 2.0 |
+| numpy   | ≥ 1.26 |
+| scikit-learn | ≥ 1.4 |
+| scipy   | ≥ 1.12 |
+| surprise | ≥ 1.1 |
+| matplotlib / seaborn | facultatives pour les graphiques |
+
+Installez-les ainsi :
+
+Terminal
+pip install pandas numpy scikit-learn scipy scikit-surprise matplotlib seaborn
