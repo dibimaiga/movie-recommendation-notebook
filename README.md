@@ -1,7 +1,7 @@
-# Movie Recommendation – Notebook
+# Système de Recommendation de films
 
 Ce projet illustre la mise en place pas-à-pas d’un moteur de recommandation
-de films à partir des données MovieLens 100 k️¹.
+de films.
 Le notebook explore plusieurs approches (popularité, filtrage collaboratif
 basé sur la mémoire et factorisation matricielle) et compare leurs
 performances.
